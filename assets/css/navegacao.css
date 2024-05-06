@@ -1,0 +1,17 @@
+:root{
+    --cor-navegacao: black;
+    --cor-link: white;
+    --cor-link-hover: rgb(205, 221, 235);
+}
+
+nav.custom {
+    background-color: var(--cor-navegacao) !important;
+}
+
+nav.custom a {
+    color: var(--cor-link);
+}
+
+nav.custom a:hover {
+    color: var(--cor-link-hover);
+}
